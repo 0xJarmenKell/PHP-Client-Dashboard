@@ -1,0 +1,125 @@
+/*
+Theme Name: My Custom Theme
+Theme URI: 
+Author: Youssef Yousry
+Author URI: 
+Description: A brief description of the theme.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: 
+Tags: custom-theme
+Text Domain: mycustomtheme
+*/
+
+@media print {
+    .no-print {
+        display: none;
+    }
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-brand {
+    flex: 1;
+}
+.navbar-nav {
+    display: flex;
+    gap: 15px; /* Adjust spacing between nav items as needed */
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a.nav-linked {
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button a .nav-linked:hover {
+  color: #fff;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
+
+.spacing {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.gradiant{
+    background: linear-gradient(90deg, rgba(150,51,231,1) 35%, rgba(20,11,214,1) 100%);
+    color: #fff;
+}
+
+ footer {
+    background: linear-gradient(90deg, rgba(150,51,231,1) 35%, rgba(20,11,214,1) 100%);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+
+
+  }
+/*
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 20px;
+  }
+  
+  .footer-section h2 {
+    margin-bottom: 10px;
+  }
+  
+
+
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    width: 100%;
+  }
+  
+  .footer-section i {
+    margin-right: 10px;
+  }  */
